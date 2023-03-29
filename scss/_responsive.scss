@@ -1,0 +1,18 @@
+@media all and (min-widith: 768px){
+    nav img {
+         columns: 1vh 1vh;   
+    }
+}
+@import "responsive";
+
+@media all and (min-widith: 576px){
+    nav img {
+        columns: 1rem 1rem;   
+   }
+}
+@import "responsive";
+
+@media all and (min-widith: 1200px){
+   
+}
+@import "responsive";

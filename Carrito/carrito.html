@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <META NAME="AUTHOR" CONTENT="Antonela Pasquettin">
+    <META NAME="REPLY-TO" CONTENT="antonelapasquettin90@gmail.com">
+    <LINK REV="made" href="mailto:antonelapasquettin90@gmail.com">
+    <META NAME="DESCRIPTION" CONTENT="Gastronomia y boliche bailable">
+    <META NAME="KEYWORDS" CONTENT="quijote disco bar villa huidobro cordoba">
+    <META NAME="Resource-type" CONTENT="Document">
+    <META NAME="DateCreated" CONTENT="Tue, 27 December 2022 00:00:00 GMT+1">
+    <META NAME="Revisit-after" CONTENT="10 days">
+    <META NAME="robots" content="ALL">
+    <meta content="quijote disco bar villa huidobro boliche bailable gastronomia" name="keywords">
+    <link rel="stylesheet" href="styles.css" />
+    <title>Carrito de compras</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+  </head>
+       <body>
+        <!--navBar-->
+        <h1 class="ver-carrito text-end" id="verCarrito">🛒
+          <span id="cantidadCarrito" class="cantidad-carrito"></span></h1>
+
+        <div class="nav-container">
+          <nav class="navbar">
+            <nav class="navbar-expand-lg navbar navbar-dark text-end">
+              <div class="container letras">
+                <img class="img pulsate-bck" src="/imagenes/logo-25a.jpeg"
+                    width="100px" height="100px">               
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                  <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="/index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item letras">
+                      <a class="nav-link letras" href="/proximos-eventos.html">Próximos Eventos</a>
+                    </li>
+                    <li class="nav-item letras">
+                      <a class="nav-link letras" href="/imagenes.html">Imágenes</a>
+                    </li>
+                     <li class="nav-item letras">
+                <a class="nav-link letras" href="/Carrito/carrito.html">Compra tus entradas</a>
+              </li>
+                    <li class="nav-item dropdown text-white">
+                      <a class="nav-link dropdown-toggle" href="/la-empresa.html" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        El Bar
+                      </a>
+                      <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item letras" href="/la-empresa.html">Sobre Nosotros</a></li>
+                        <li><a class="dropdown-item letras" href="https://www.menudigital.com/restaurante/quijote-bar">Nuestra Carta</a></li>
+                        <li><hr class="dropdown-divider letras"></li>
+                        <li><a class="dropdown-item letras" href="/reserva.html">Reserva tu mesa</a></li>
+                      </ul>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link letras" href="/contactos.html">Contactos</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </nav>
+        </div>
+            
+        <!--banner-->
+        <div class="banner">
+          <div class="banner-container">
+            <h1>COMPRA TUS ENTRADAS</h1>
+            <p>30 AÑOS HACIENDO NOCHES</p>
+          </div>
+        </div>
+    
+        <!--shop content-->
+        <div id="shopContent" class="shop-content"></div>
+    
+        <!--modal container-->
+        <div id="modal-container" class="modal-container"></div>
+    
+        <script src="./js/products.js"></script>
+        <script src="./js/app.js"></script>
+        <script src="./js/carrito.js"></script>
+      </body>
+    </html>
