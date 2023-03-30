@@ -230,4 +230,9 @@ nav :hover {
     width: 80px;
   }
 }
-
+.space{
+  margin-top: 80px;
+}
+.decoration {
+  text-decoration: none !important;
+}
